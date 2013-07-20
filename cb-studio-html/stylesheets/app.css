@@ -5919,7 +5919,7 @@ label.error {
 /* line 115, ../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.0/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs {
   display: block;
-  padding: 0.5625em 0.875em 0.5625em;
+  padding: 0.5625em 0 0.5625em;
   overflow: hidden;
   margin-left: 0;
   list-style: none;
@@ -5927,12 +5927,18 @@ label.error {
   
   
 }
+
+.breadcrumbs a.last-li{
+  padding-right: 0;
+}
+
 /* line 119, ../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.0/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > * {
   margin: 0;
   float: left;
-  font-size: 1.9em;
+  font-size: 1.625em;
   text-transform: uppercase;
+  font-family: 'Salome';
 }
 /* line 60, ../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.0/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
@@ -5943,7 +5949,7 @@ label.error {
 .breadcrumbs > * span {
   text-transform: uppercase;
   color: #2ba6cb;
-  padding: 0 2.05em;
+  padding-right: 7.05em;
 }
 /* line 69, ../../../../../../../var/lib/gems/1.9.1/gems/zurb-foundation-4.3.0/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current {
