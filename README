@@ -1,10 +1,14 @@
- Progetto web per uno studio di motion-design.
+#Progetto web per uno studio di motion-design.
 
-cliente: cb-studio
-data inizio: 20/7/2013
+###Cliente: cb-studio
+###Data inizio: 20/7/2013
 
-developers: Silvio Rossi, ...
+###Developer: Silvio Rossi ######(silvio-rossi.com)
+###Graphics : Candida Bevilacqua ######(thecblab.com)
 
-framework: foundation4.
+Css Framework: Bootstrap.
+Css Preprocessor : Sass
+Task Manager : Grunt.
+
 
 
